@@ -74,7 +74,7 @@ const {
 } = require('./lib/level.js')
 
 img = setting.img
-baper = 'SUB YT FAX  BOTZ'
+baper = 'SUB YT DIKAZ KUN'
 apiku = '-'
 botname2 = setting.botname2
 thumbnail = setting.thumb
@@ -98,7 +98,7 @@ namebot = setting.namebot
 ownerNumber = setting.ownerNumber
 ownername = setting.ownername
 l0lhuman = setting.l0lhuman //ubah pke apilu sendiri biar limit nya gk cepat abis
-Alphakey = 'Alphabot' //apikey alphabot gk usah di ganti su
+Alphakey = 'Fibotz' //apikey alphabot gk usah di ganti su
 petik = '```'
 titik = '...'
 n = '\n'
@@ -978,7 +978,8 @@ var date = new Date();
         case 'help':       
 						if (!isElite) return reply(`Hai ${pushname} Anda belum terdaftar di database, silahkan ketik ${prefix}verify`)
 						user.push(sender)
-						await costum(help(wit,wita,wib,tampilTanggal, _Elite, tampilHari , limitawal, role, premi, sender, botname,pushname, prefix, wa_version, mcc, mnc, os_version, device_manufacturer, device_model ))	
+						//await costum(help(wit,wita,wib,tampilTanggal, _Elite, tampilHari , limitawal, role, premi, sender, botname,pushname, prefix, wa_version, mcc, mnc, os_version, device_manufacturer, device_model ))	
+						nayla.sendMessage(from, nyz.help(wit,wita,wib,tampilTanggal, _Elite, tampilHari , limitawal, role, premi, sender, botname,pushname, prefix, wa_version, mcc, mnc, os_version, device_manufacturer, device_model ), text, {quoted: ftoko})														
 						break
 		
 	case 'menu2': 
