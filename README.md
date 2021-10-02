@@ -1,2 +1,1 @@
-# ok
-https://www.mediafire.com/file/lhrlz4fspq1nc6u/ayam.rar/file
+https://classroom.google.com/c/Mzk0MTQzODU0MDY2?cjc=xbocktw
